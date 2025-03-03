@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Vision-Mask-X</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo"><a href="/home">Vision-Mask-X</a></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </nav>
+        <a href="static/uploads/LMS_Finall_Report.pdf" class="cta-button" download>Download Report</a>
+    </header>
+    <br>
+
+    <div class="video_box">
+    <h1>Live Mask Detection</h1>
+    <a href="/" class="cta-button">Back to Home</a>
+
+    <div>
+            <div style="text-align: center;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;">
+                <button onclick="window.location.href='/start_video'" class="btn"><span>Start Video</span></button>
+                <button onclick="window.location.href='/stop_video'" class="btn"><span>Stop Video</span></button>
+            </div>
+            <div>
+                <img src="/video_feed" width="450" height="350" alt="Live Video Feed" style="margin-top:10px">
+            </div>
+    </div>
+        </div>
+</body>
+</html>
