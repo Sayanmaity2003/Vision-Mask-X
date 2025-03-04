@@ -12,7 +12,7 @@ MaskAlert is a real-time face mask detection system that uses computer vision an
 
 ## 🛠️ Technologies Used
 - **Programming Language:** Python
-- **Libraries:** TensorFlow, OpenCV, NumPy, Streamlit
+- **Libraries:** TensorFlow, OpenCV, NumPy, Flask
 - **Model:** Convolutional Neural Network (CNN)
 - **Deployment:** Local system or cloud-based options
 
