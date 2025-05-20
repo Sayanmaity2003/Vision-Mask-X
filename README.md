@@ -1,4 +1,4 @@
-# MaskAlert: Alarm-Based Face Mask Detection System
+# MaskAlert: Realtime Alarm-Based Face Mask Detection System
 
 ## 📋 Project Description
 MaskAlert is a real-time face mask detection system that uses computer vision and machine learning to identify if individuals are wearing masks. If a mask is not detected, the system triggers an alarm to enhance public safety in crowded areas.
