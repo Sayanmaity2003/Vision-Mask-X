@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 import base64
 import os
 import threading
-from playsound import playsound
 import pygame
 
 app = Flask(__name__)
