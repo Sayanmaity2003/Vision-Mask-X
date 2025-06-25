@@ -1,10 +1,8 @@
-services:
-  - type: web
-    name: vision-mask-x
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
-    plan: free
-    branch: main
-    autoDeploy: true
-    pythonVersion: 3.10.13
+build:
+  command: |
+    curl -s https://pyenv.run | bash
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    pyenv install 3.10.13
+    pyenv global 3.10.13
+    pip install -r requirements.txt
