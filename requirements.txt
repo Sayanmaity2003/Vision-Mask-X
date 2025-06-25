@@ -3,3 +3,4 @@ tensorflow
 opencv-python
 numpy
 pygame
+playsound
